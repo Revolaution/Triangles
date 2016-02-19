@@ -20,7 +20,12 @@ public class TriangleCreator {
     }
 
     public void rightTriangle(int base){
-        
+        for (int i = 1; i < (base + 1); i++){
+            for (int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
     }
 
 }
