@@ -29,18 +29,14 @@ public class TriangleCreator {
     }
 
     public void isoscelesTriangle(int numOfRows){
-        int counter = 0;
-        while (counter < numOfRows){
-            for (int i = 1; i < (numOfRows + 4); i += 2){
-                for (int k = 0; k < (2 - (i / 2)); k++){
-                    System.out.print(" ");
-                }
-                for (int j = 0; j < i; j++){
-                    System.out.print("*");
-                }
-                System.out.println("");
-                counter ++;
+        for (int i = 1; i < (numOfRows + 4); i += 2){
+            for (int k = 0; k < (2 - (i / 2)); k++){
+                System.out.print(" ");
             }
+            for (int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+            System.out.println("");
         }
     }
 }
