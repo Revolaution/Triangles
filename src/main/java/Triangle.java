@@ -9,6 +9,6 @@ public class Triangle {
 //        tC.horizontalLine(8);
 //        tC.verticalLine(3);
 //        tC.rightTriangle(5);
-        tC.isoscelesTriangle(3);
+        tC.isoscelesTriangle(5);
     }
 }
